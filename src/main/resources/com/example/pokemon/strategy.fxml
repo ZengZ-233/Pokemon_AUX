@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.pokemon.Strategy"
+            prefHeight="400.0" prefWidth="600.0">
+
+
+    <VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml">
+        <Button text="返回" onAction="#goBack"/>
+    </VBox>
+
+    <VBox alignment="CENTER" spacing="40.0" layoutX="50.0" layoutY="50.0" prefWidth="500.0" prefHeight="300.0">
+        <Button text="神奥地区" onAction="#shenao"/>
+        <Button text="合众地区" onAction="#hezhong"/>
+        <Button text="关都地区" onAction="#guandu"/>
+        <Button text="丰源地区" onAction="#fengyuan"/>
+
+    </VBox>
+</AnchorPane>
